@@ -1,0 +1,90 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway</title>
+</head>
+<body>
+<div>
+<jsp:include page="adminHeader.jsp"/>
+   </div> 
+   <br><br><br><br>
+ <center> <div id="changePasswordDiv">
+    
+       
+      <form name="changeform" action="changePasswordServlet" method="post" onsubmit="return changePasswordvalidateForm()">
+       Current Password : <input class="textboxstyle" type="text" name="currentpassword" ><br><br>
+      New Password : <input  class="textboxstyle" type="text" name="newpassword" ><br><br>
+      Confirm Password : <input  class="textboxstyle" type="text" name="confirmpassword" ><br><br>
+      <input type="submit" class="buttonstyle" value="ChangePassword">
+      </form>
+       
+    </div></center>
+        
+</body>
+<script>
+
+
+
+function changePasswordvalidateForm() {
+  var currentpassword = document.forms["changeform"]["currentpassword"].value;
+  var newpassword = document.forms["changeform"]["newpassword"].value;
+  var confirmpassword = document.forms["changeform"]["confirmpassword"].value;
+  
+  if (currentpassword == "") {
+    alert("currentpassword must be filled out");
+    return false;
+  }
+  if (newpassword == "") {
+	    alert("newpassword must be filled out");
+	    return false;
+	  }
+  if (confirmpassword == "") {
+	    alert("confirmpassword must be filled out");
+	    return false;
+	  }
+  
+  
+}
+</script>
+
+<style>
+.textboxstyle {
+  border-radius:5px;
+   height: 30px;
+   
+   
+}
+.buttonstyle
+{
+
+background-color: Cyan;
+color: white;
+padding:20px;
+margin: 5px;
+ font-size: large;
+ font-weight: bold;
+border-radius: 12px;
+ 
+ cursor: pointer;
+
+}
+ 
+
+.buttonstyle:hover {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 14px;
+  color: #f00;
+  height: 50px;
+  width: 134px;
+  text-decoration: none;
+  font-variant: small-caps;
+  background: White;
+}
+
+</style>
+</html>

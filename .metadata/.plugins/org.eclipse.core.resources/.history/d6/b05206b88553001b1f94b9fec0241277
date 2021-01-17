@@ -1,0 +1,81 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"  errorPage="Error.jsp"%>
+    
+     <%@ page import="model.flightDataModel" %>
+    <%@ page import ="java.util.ArrayList"%>
+<%@ page import ="java.util.List"%>
+
+<%@ taglib  uri ="http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+
+<%@ page isELIgnored="false" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <h3>Personal Informatin :</h3>
+<p>Flight No : <c:out value="${email}"  /></p>
+<p>Flight No : <c:out value="${phno}"  /></p>
+<p>Flight No : <c:out value="${noofpass}"  /></p>
+<p>Flight No : <c:out value="${passengername}"  /></p>
+ 
+ private String fromcity;
+	private String tocity;
+	private Date date;
+	private Time time;
+	private String airportname;
+	private double ticketprice;
+	private String description;
+
+<h3>Flight Informatin :</h3>
+<p>Flight No : <c:out value="${singleflightListData.flightno}"  /></p>
+<p>Flight Name : <c:out value="${singleflightListData.flightname}"  /></p>
+<p>Fromcity: <c:out value="${singleflightListData.fromcity}"  /> </p>
+<p>Tocity: <c:out value="${singleflightListData.tocity}"  /> </p>
+<p>Date : <c:out value="${singleflightListData.date}"  /></p>
+<p>Time : <c:out value="${singleflightListData.time}"  /></p>
+<p>Airportname : <c:out value="${singleflightListData.airportname}"  /></p>
+ 
+<p>Total Ticketprice : <c:out value="${totalfair}"  /></p>
+  
+ 
+<input class="buttonstyle" type="button" value="Click to Confirm Payment" onclick="homefunction()" >
+</body>
+
+<style>
+p{
+font-size: xx-large;
+}
+.buttonstyle
+{
+
+background-color: Cyan;
+color: white;
+padding:20px;
+margin: 5px;
+ font-size: large;
+ font-weight: bold;
+border-radius: 12px;
+ 
+ cursor: pointer;
+
+}
+ 
+
+.buttonstyle:hover {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 14px;
+  color: #f00;
+  height: 50px;
+  width: 134px;
+  text-decoration: none;
+  font-variant: small-caps;
+  background: White;
+}
+</style>
+
+</html>

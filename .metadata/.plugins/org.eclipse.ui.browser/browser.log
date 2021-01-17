@@ -1,0 +1,12 @@
+
+Jan 18, 2021 24:45:19.278 NEW SESSION
+Jan 18, 2021 24:45:19.278 [13372:4276:0118/004519.258:ERROR:device_event_log_impl.cc(211)] [00:45:19.258] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+Jan 18, 2021 24:48:03.135 [6880:11016:0118/004803.135:ERROR:device_event_log_impl.cc(211)] [00:48:03.135] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+Jan 18, 2021 24:57:55.213 [0118/005755.212:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 18, 2021 02:02:00.817 [6880:5140:0118/020200.816:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 18, 2021 02:02:15.818 [6880:5140:0118/020215.818:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 18, 2021 02:02:18.58 [6880:5140:0118/020218.057:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2021 02:04:03.978 [6880:5140:0118/020403.978:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2021 02:07:28.67 [6880:5140:0118/020728.045:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2021 02:15:08.02 [6880:5140:0118/021508.001:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2021 02:25:08.18 [6880:5140:0118/022508.017:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

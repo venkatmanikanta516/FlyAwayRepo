@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+<jsp:include page="adminHeader.jsp"/>
+   </div> 
+  <br><br><br><br>
+     <div id="addFlightDiv">
+    
+     
+      <form name="addFlightform" class="addflightformstyle" action="UpdateFlightDataServlet"   onsubmit="return addFlightvalidateForm()">
+       Flight No : <input  class="textboxstyle" type="text" name="flightno" ><br><br>
+      Flight Name : <input  class="textboxstyle" type="text" name="flightname" ><br><br>
+      From City : <input  class="textboxstyle" type="text" name="fromcity" ><br><br>
+      To City : <input class="textboxstyle" type="text" name="tocity" ><br><br>
+      Date : <input class="textboxstyle" type="text" name="date" ><br><br>
+      Time : <input class="textboxstyle" type="text" name="time" ><br><br>
+      Airport Name : <input class="textboxstyle" type="text" name="airportname" ><br><br>
+      Ticket Price : <input class="textboxstyle" type="text" name="ticketprice" ><br><br>
+      Description : <input class="textboxstyle" type="text" name="description" ><br><br>
+      <input type="submit" class="buttonstyle"  value="Update Flight Data">
+      </form>
+      
+    </div>
+
+</body>
+
+</html>

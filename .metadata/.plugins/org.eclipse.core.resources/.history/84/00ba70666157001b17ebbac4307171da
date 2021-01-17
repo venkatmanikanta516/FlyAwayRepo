@@ -1,0 +1,117 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+ 
+  <display-name>Archetype Created Web Application</display-name>
+   
+   
+  <servlet>
+  	<servlet-name>flightDataServlet</servlet-name>
+  	<display-name>flightDataServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.flightDataServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>editServlet</servlet-name>
+  	<display-name>editServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.editServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>bookServlet</servlet-name>
+  	<display-name>bookServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.bookServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>searchFlightData</servlet-name>
+  	<display-name>searchFlightData</display-name>
+  	<description></description>
+  	<servlet-class>controller.searchFlightData</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<display-name>AdminServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>testServl</servlet-name>
+  	<display-name>testServl</display-name>
+  	<description></description>
+  	<servlet-class>controller.testServl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookingReviewServlet</servlet-name>
+  	<display-name>BookingReviewServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.BookingReviewServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminFlightDataServlet</servlet-name>
+  	<display-name>AdminFlightDataServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.AdminFlightDataServlet</servlet-class>
+  </servlet>
+   
+   
+   
+  <servlet-mapping>
+  	<servlet-name>flightDataServlet</servlet-name>
+  	<url-pattern>/flightDataServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>editServlet</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>bookServlet</servlet-name>
+  	<url-pattern>/book</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>searchFlightData</servlet-name>
+  	<url-pattern>/searchFlightData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>testServl</servlet-name>
+  	<url-pattern>/testServl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookingReviewServlet</servlet-name>
+  	<url-pattern>/BookingReviewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminFlightDataServlet</servlet-name>
+  	<url-pattern>/AdminFlightDataServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>  
+   <welcome-file>Home.jsp</welcome-file>  
+   <welcome-file>LoginForm.jsp</welcome-file>  
+   
+  </welcome-file-list> 
+</web-app>

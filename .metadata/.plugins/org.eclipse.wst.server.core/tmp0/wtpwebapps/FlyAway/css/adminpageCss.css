@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+ 
+#homeimgDiv
+{
+display: inline;
+width: 1350px;
+ height: 520px;
+}
+ 
+ #changePasswordDiv
+{
+display: none;
+}
+ 
+ #addFlightDiv
+{
+display: none;
+}
+ div{
+
+float:left;
+}
+.headerdiv
+{
+ 
+background-color: black;
+color: white;
+font-family: cursive;
+font-size: x-large;
+
+}
+
+.buttonstyle
+{
+
+background-color: black;
+color: white;
+padding:20px;
+margin: 5px;
+ 
+
+}
+ 
+
+ 

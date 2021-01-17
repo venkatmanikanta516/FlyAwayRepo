@@ -1,0 +1,108 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway</title>
+</head>
+<body class="headerdiv">
+ 
+
+ 
+ <div>
+ <b  >FlyWay Ticket Booking </b>
+ 
+ </div>
+ <div>
+<form action="flightDataServlet">
+
+<input type="submit" class="buttonstyle"  value="Flights Data"> 
+
+</form>
+</div>
+
+<div> 
+ 
+
+<form action="changeAdminPassword.jsp">
+
+<input type="submit" class="buttonstyle" value="Change Password"> 
+ 
+</form>
+</div>
+
+<div> 
+ 
+
+<form action="addFlight.jsp">
+
+<input type="submit" class="buttonstyle" value="Add Flight"> 
+ 
+</form>
+</div>
+ <div> 
+<input class="buttonstyle" type="button" value="Logout" onclick="logOutfunction()" >
+</div>
+ 
+ 
+ 
+
+</body>
+<script type="text/javascript">
+
+function logOutfunction()
+{
+	  if (confirm('Are you sure you want to logout?'))
+	  {
+				window.location.href ="LoginForm.jsp"
+	 }  
+   }
+
+</script>
+
+<style>
+div{
+
+float:left;
+}
+.headerdiv
+{
+ 
+background-color: black;
+color: white;
+font-family: cursive;
+font-size: x-large;
+
+}
+
+.buttonstyle
+{
+
+background-color: Cyan;
+color: white;
+padding:20px;
+margin: 5px;
+ font-size: large;
+ font-weight: bold;
+border-radius: 12px;
+ 
+ cursor: pointer;
+}
+
+.buttonstyle:hover {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 14px;
+  color: #f00;
+  height: 50px;
+  width: 134px;
+  text-decoration: none;
+  font-variant: small-caps;
+  background: White;
+}
+</style>
+
+
+</html>
