@@ -2163,3 +2163,15 @@
 2021-01-18 03:30:57,031 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\test\resources
 2021-01-18 03:31:38,912 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-01-18 03:31:38,913 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\main\resources
+2021-01-18 03:31:38,919 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-18 03:31:38,920 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\test\resources
+2021-01-18 03:53:58,400 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-18 03:53:58,401 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\main\resources
+2021-01-18 03:53:58,403 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-18 03:53:58,403 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\test\resources
+2021-01-18 03:54:08,720 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-18 03:54:08,721 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\main\resources
+2021-01-18 03:54:08,723 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-18 03:54:08,723 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\test\resources
+2021-01-18 03:54:28,577 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-18 03:54:28,578 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MANIKANTA PC\Desktop\MJAVA\FlyAway Project\FlyAway\src\main\resources
