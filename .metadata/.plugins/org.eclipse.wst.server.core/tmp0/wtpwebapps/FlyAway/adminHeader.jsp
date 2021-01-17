@@ -11,7 +11,7 @@
 
  
  <div>
- <b  >FlyWay Ticket Booking </b>
+ <b  >FlyAway Ticket Booking </b>
  
  </div>
  <div>

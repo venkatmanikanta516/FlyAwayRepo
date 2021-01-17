@@ -32,7 +32,7 @@
       Flight Name : <input  class="textboxstyle" type="text" name="flightname" value="${fss.flightname}"><br><br>
       From City : <input  class="textboxstyle" type="text" name="fromcity" value="${fss.fromcity}" ><br><br>
       To City : <input class="textboxstyle" type="text" name="tocity" value="${fss.tocity}"><br><br>
-      Date : <input class="textboxstyle" type="date" name="date"  value="${fss.date}"><br><br>
+      Date : <input class="textboxstyle" type="text" name="date"  value="${fss.date}"><br><br>
       Time : <input class="textboxstyle" type="text" name="time" value="${fss.time}"><br><br>
       Airport Name : <input class="textboxstyle" type="text" name="airportname" value="${fss.airportname}"><br><br>
       Ticket Price : <input class="textboxstyle" type="text" name="ticketprice" value="${fss.ticketprice}"><br><br>

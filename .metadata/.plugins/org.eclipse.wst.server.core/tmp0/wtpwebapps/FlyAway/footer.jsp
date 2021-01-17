@@ -8,7 +8,7 @@
 </head>
 <body>
  
-<b class="footertext">©Copyright 2019|FlyWay Ticket Booking|All Rights Reserved</b> 
+<b class="footertext">©Copyright 2019|FlyAway Ticket Booking|All Rights Reserved</b> 
  
 </body>
 <style>

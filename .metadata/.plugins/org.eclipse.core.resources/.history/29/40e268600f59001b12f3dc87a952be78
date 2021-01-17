@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" errorPage="Error.jsp"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,13 +11,13 @@
 
  
  <div>
- <b  >FlyAway Ticket Booking </b>
+ <b  >FlyWay Ticket Booking </b>
  
  </div>
  <div>
-<form action="Home.jsp">
+<form action="FlightDataForAdmin">
 
-<input type="submit" class="buttonstyle"  value="Home"> 
+<input type="submit" class="buttonstyle"  value="Flights Data"> 
 
 </form>
 </div>
@@ -25,23 +25,41 @@
 <div> 
  
 
-<form action="flightDataServlet">
+<form action="changeAdminPassword.jsp">
 
-<input type="submit" class="buttonstyle" value="Search Flight"> 
+<input type="submit" class="buttonstyle" value="Change Password"> 
+ 
+</form>
+</div>
+
+<div> 
+ 
+
+<form action="addFlight.jsp">
+
+<input type="submit" class="buttonstyle" value="Add Flight"> 
  
 </form>
 </div>
  <div> 
-<form action="LoginForm.jsp" >
- <input type="submit" class="buttonstyle" value="Admin Login"> 
-</form>
+<input class="buttonstyle" type="button" value="Logout" onclick="logOutfunction()" >
 </div>
  
  
  
 
 </body>
+<script type="text/javascript">
 
+function logOutfunction()
+{
+	  if (confirm('Are you sure you want to logout?'))
+	  {
+				window.location.href ="LoginForm.jsp"
+	 }  
+   }
+
+</script>
 
 <style>
 div{
@@ -85,7 +103,6 @@ border-radius: 12px;
   background: White;
 }
 </style>
-
 
 
 </html>
