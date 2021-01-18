@@ -20,7 +20,7 @@
             
          <br><br>   
            User Name : <input class="textboxstyle" type="text" name="username">  <br>
-          Password : <input class="textboxstyle" type="text" name="password"> <br>
+          Password : <input class="textboxstyle" type="password" name="password"> <br>
           <input class="buttonstyle" type="submit" value="Signin"> 
 <!--            or <input type="button"   value="Create Account"> -->
            </form>

@@ -89,12 +89,6 @@
   	<description></description>
   	<servlet-class>controller.UpdateFlightDataServlet</servlet-class>
   </servlet>
-  <servlet>
-  	<servlet-name>changePasswordServlet</servlet-name>
-  	<display-name>changePasswordServlet</display-name>
-  	<description></description>
-  	<servlet-class>controller.changePasswordServlet</servlet-class>
-  </servlet>
    
    
    
@@ -153,10 +147,6 @@
   <servlet-mapping>
   	<servlet-name>UpdateFlightDataServlet</servlet-name>
   	<url-pattern>/UpdateFlightDataServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>changePasswordServlet</servlet-name>
-  	<url-pattern>/changePasswordServlet</url-pattern>
   </servlet-mapping>
   
   <welcome-file-list>  

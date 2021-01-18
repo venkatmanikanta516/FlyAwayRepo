@@ -14,7 +14,7 @@
  <center> <div id="changePasswordDiv">
     
        
-      <form name="changeform" action="changePasswordServlet"   onsubmit="return changePasswordvalidateForm()">
+      <form name="changeform" action="changePasswordServlet" method="post" onsubmit="return changePasswordvalidateForm()">
        Current Password : <input class="textboxstyle" type="text" name="currentpassword" ><br><br>
       New Password : <input  class="textboxstyle" type="text" name="newpassword" ><br><br>
       Confirm Password : <input  class="textboxstyle" type="text" name="confirmpassword" ><br><br>
