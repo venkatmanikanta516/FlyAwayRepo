@@ -1,0 +1,19 @@
+
+Technology Information :
+========================
+IDE: Eclipse
+Project Type: Maven Web Project
+Server: apache-tomcat-9.0.41
+DataBase: MySql
+
+
+Admin Credentials :
+=================
+User Name :: bheem
+Password :: bheem123
+
+Mysql Connection String Location in Project :
+==============================================
+/FlyAway/src/main/java/dao/dbConnectionClass.java ===> Line no :12
+
+
